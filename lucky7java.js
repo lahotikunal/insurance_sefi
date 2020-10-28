@@ -103,7 +103,8 @@ rules.addEventListener('click', function() {
 });
 
 next_game.addEventListener('click',function(){
-  {location.href = "https://lahotikunal.github.io/lucky-7/";}
+  if(potValue<0)
+    {location.href = "https://lahotikunal.github.io/lucky-7/";}
 });
 //rules
 
